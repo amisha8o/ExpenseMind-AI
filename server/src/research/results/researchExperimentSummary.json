@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-09-26T19:30:17.814Z",
+  "dataset": {
+    "name": "ExpenseMind Expense Forecasting Experiment",
+    "version": "1.0",
+    "dataset": "ExpenseMind Research Dataset",
+    "totalExpenseTransactions": 200,
+    "observationDays": 89,
+    "trainDays": 71,
+    "testDays": 18,
+    "trainTestSplit": "80% chronological training / 20% chronological testing",
+    "testDataUsedForTraining": false
+  },
+  "anomalyProcessing": {
+    "method": "Hybrid Z-Score + Isolation Forest",
+    "zScoreThreshold": 2.5,
+    "isolationForestThreshold": 0.55,
+    "trainingAnomaliesRemoved": 6,
+    "trainingMean": 1647.3,
+    "trainingStandardDeviation": 3186.26,
+    "testAnomaliesObserved": 3,
+    "testAnomaliesUsedForTraining": false
+  },
+  "models": {
+    "rawForecast": "Linear Trend Regression",
+    "anomalyAwareForecast": "Linear Trend Regression on anomaly-adjusted training data"
+  },
+  "anomalyDetection": {
+    "zScore": {
+      "TP": 8,
+      "TN": 190,
+      "FP": 0,
+      "FN": 2,
+      "precision": 1,
+      "recall": 0.8,
+      "f1Score": 0.8889,
+      "falsePositiveRate": 0,
+      "accuracy": 0.99
+    },
+    "isolationForest": {
+      "TP": 2,
+      "TN": 190,
+      "FP": 0,
+      "FN": 8,
+      "precision": 1,
+      "recall": 0.2,
+      "f1Score": 0.3333,
+      "falsePositiveRate": 0,
+      "accuracy": 0.96
+    },
+    "hybrid": {
+      "TP": 2,
+      "TN": 190,
+      "FP": 0,
+      "FN": 8,
+      "precision": 1,
+      "recall": 0.2,
+      "f1Score": 0.3333,
+      "falsePositiveRate": 0,
+      "accuracy": 0.96
+    }
+  },
+  "forecasting": {
+    "rawForecast": {
+      "MAE": 4249.63,
+      "RMSE": 5886.92,
+      "modelParameters": {
+        "slope": 19.178889,
+        "intercept": 2812.980994
+      }
+    },
+    "anomalyAwareForecast": {
+      "MAE": 3769.59,
+      "RMSE": 6141.93,
+      "modelParameters": {
+        "slope": 15.087675,
+        "intercept": 1636.321034
+      }
+    },
+    "improvement": {
+      "MAE": 11.3,
+      "RMSE": -4.33
+    }
+  }
+}

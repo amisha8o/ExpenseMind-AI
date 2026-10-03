@@ -1,0 +1,13 @@
+{
+  "project": "ExpenseMind AI",
+  "researchTitle": "ExpenseMind AI: An Explainable Intelligent Personal Finance System with Hybrid Anomaly Detection and Anomaly-Aware Expense Forecasting",
+  "source": "FINAL_RESEARCH_RESULTS.json",
+  "resultsStatus": "LOCKED_FROM_SAVED_RESEARCH_OUTPUTS",
+  "inventedValues": false,
+  "tables": [
+    "Table 1 — Anomaly Detection Performance",
+    "Table 2 — Threshold Sensitivity",
+    "Table 3 — Forecasting Performance"
+  ],
+  "outputDirectory": "src/research/results/tables"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "Model": "Z-Score",
+    "TP": 8,
+    "TN": 190,
+    "FP": 0,
+    "FN": 2,
+    "Precision": 1,
+    "Recall": 0.8,
+    "F1": 0.8889,
+    "Accuracy": 0.99
+  },
+  {
+    "Model": "Isolation Forest",
+    "TP": 2,
+    "TN": 190,
+    "FP": 0,
+    "FN": 8,
+    "Precision": 1,
+    "Recall": 0.2,
+    "F1": 0.3333,
+    "Accuracy": 0.96
+  },
+  {
+    "Model": "Hybrid",
+    "TP": 2,
+    "TN": 190,
+    "FP": 0,
+    "FN": 8,
+    "Precision": 1,
+    "Recall": 0.2,
+    "F1": 0.3333,
+    "Accuracy": 0.96
+  }
+]

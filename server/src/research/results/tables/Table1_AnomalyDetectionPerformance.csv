@@ -1,0 +1,4 @@
+Model,TP,TN,FP,FN,Precision,Recall,F1,Accuracy
+Z-Score,8,190,0,2,1,0.8,0.8889,0.99
+Isolation Forest,2,190,0,8,1,0.2,0.3333,0.96
+Hybrid,2,190,0,8,1,0.2,0.3333,0.96

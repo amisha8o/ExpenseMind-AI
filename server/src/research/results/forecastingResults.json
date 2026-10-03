@@ -1,0 +1,180 @@
+{
+  "status": "SUCCESS",
+  "experiment": {
+    "name": "ExpenseMind Expense Forecasting Experiment",
+    "version": "1.0",
+    "dataset": "ExpenseMind Research Dataset",
+    "totalExpenseTransactions": 200,
+    "observationDays": 89,
+    "trainDays": 71,
+    "testDays": 18,
+    "trainTestSplit": "80% chronological training / 20% chronological testing",
+    "testDataUsedForTraining": false
+  },
+  "anomalyProcessing": {
+    "method": "Hybrid Z-Score + Isolation Forest",
+    "zScoreThreshold": 2.5,
+    "isolationForestThreshold": 0.55,
+    "trainingAnomaliesRemoved": 6,
+    "trainingMean": 1647.3,
+    "trainingStandardDeviation": 3186.26,
+    "testAnomaliesObserved": 3,
+    "testAnomaliesUsedForTraining": false
+  },
+  "models": {
+    "rawForecast": "Linear Trend Regression",
+    "anomalyAwareForecast": "Linear Trend Regression on anomaly-adjusted training data"
+  },
+  "evaluation": {
+    "rawForecast": {
+      "MAE": 4249.63,
+      "RMSE": 5886.92,
+      "modelParameters": {
+        "slope": 19.178889,
+        "intercept": 2812.980994
+      }
+    },
+    "anomalyAwareForecast": {
+      "MAE": 3769.59,
+      "RMSE": 6141.93,
+      "modelParameters": {
+        "slope": 15.087675,
+        "intercept": 1636.321034
+      }
+    },
+    "improvement": {
+      "MAE": 11.3,
+      "RMSE": -4.33
+    }
+  },
+  "testActualValues": [
+    949.52,
+    0,
+    659.6,
+    3406.64,
+    13496.68,
+    5754.27,
+    1317.69,
+    1064.83,
+    5627.74,
+    1120.09,
+    3035.94,
+    16339.93,
+    1059.55,
+    3339.82,
+    730.05,
+    21064.2,
+    3443.44,
+    498.2
+  ],
+  "dailyResults": [
+    {
+      "date": "2026-03-14",
+      "actualExpense": 949.52,
+      "rawForecast": 4193.86,
+      "anomalyAwareForecast": 2722.63
+    },
+    {
+      "date": "2026-03-15",
+      "actualExpense": 0,
+      "rawForecast": 4213.04,
+      "anomalyAwareForecast": 2737.72
+    },
+    {
+      "date": "2026-03-16",
+      "actualExpense": 659.6,
+      "rawForecast": 4232.22,
+      "anomalyAwareForecast": 2752.81
+    },
+    {
+      "date": "2026-03-17",
+      "actualExpense": 3406.64,
+      "rawForecast": 4251.4,
+      "anomalyAwareForecast": 2767.9
+    },
+    {
+      "date": "2026-03-18",
+      "actualExpense": 13496.68,
+      "rawForecast": 4270.58,
+      "anomalyAwareForecast": 2782.98
+    },
+    {
+      "date": "2026-03-19",
+      "actualExpense": 5754.27,
+      "rawForecast": 4289.76,
+      "anomalyAwareForecast": 2798.07
+    },
+    {
+      "date": "2026-03-20",
+      "actualExpense": 1317.69,
+      "rawForecast": 4308.93,
+      "anomalyAwareForecast": 2813.16
+    },
+    {
+      "date": "2026-03-21",
+      "actualExpense": 1064.83,
+      "rawForecast": 4328.11,
+      "anomalyAwareForecast": 2828.25
+    },
+    {
+      "date": "2026-03-22",
+      "actualExpense": 5627.74,
+      "rawForecast": 4347.29,
+      "anomalyAwareForecast": 2843.34
+    },
+    {
+      "date": "2026-03-23",
+      "actualExpense": 1120.09,
+      "rawForecast": 4366.47,
+      "anomalyAwareForecast": 2858.42
+    },
+    {
+      "date": "2026-03-24",
+      "actualExpense": 3035.94,
+      "rawForecast": 4385.65,
+      "anomalyAwareForecast": 2873.51
+    },
+    {
+      "date": "2026-03-25",
+      "actualExpense": 16339.93,
+      "rawForecast": 4404.83,
+      "anomalyAwareForecast": 2888.6
+    },
+    {
+      "date": "2026-03-26",
+      "actualExpense": 1059.55,
+      "rawForecast": 4424.01,
+      "anomalyAwareForecast": 2903.69
+    },
+    {
+      "date": "2026-03-27",
+      "actualExpense": 3339.82,
+      "rawForecast": 4443.19,
+      "anomalyAwareForecast": 2918.77
+    },
+    {
+      "date": "2026-03-28",
+      "actualExpense": 730.05,
+      "rawForecast": 4462.37,
+      "anomalyAwareForecast": 2933.86
+    },
+    {
+      "date": "2026-03-29",
+      "actualExpense": 21064.2,
+      "rawForecast": 4481.54,
+      "anomalyAwareForecast": 2948.95
+    },
+    {
+      "date": "2026-03-30",
+      "actualExpense": 3443.44,
+      "rawForecast": 4500.72,
+      "anomalyAwareForecast": 2964.04
+    },
+    {
+      "date": "2026-03-31",
+      "actualExpense": 498.2,
+      "rawForecast": 4519.9,
+      "anomalyAwareForecast": 2979.12
+    }
+  ]
+}

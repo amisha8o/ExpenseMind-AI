@@ -1,0 +1,17 @@
+[
+  {
+    "Model": "Mean Baseline",
+    "MAE": "Not reported in locked final results",
+    "RMSE": "Not reported in locked final results"
+  },
+  {
+    "Model": "Linear Trend Regression",
+    "MAE": 4249.63,
+    "RMSE": 5886.92
+  },
+  {
+    "Model": "Anomaly-Aware Linear Trend Regression",
+    "MAE": 3769.59,
+    "RMSE": 6141.93
+  }
+]

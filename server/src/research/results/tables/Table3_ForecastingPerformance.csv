@@ -1,0 +1,4 @@
+Model,MAE,RMSE
+Mean Baseline,Not reported in locked final results,Not reported in locked final results
+Linear Trend Regression,4249.63,5886.92
+Anomaly-Aware Linear Trend Regression,3769.59,6141.93

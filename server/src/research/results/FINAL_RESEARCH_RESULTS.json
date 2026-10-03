@@ -1,0 +1,227 @@
+{
+  "project": "ExpenseMind AI",
+  "researchTitle": "ExpenseMind AI: An Explainable Intelligent Personal Finance System with Hybrid Anomaly Detection and Anomaly-Aware Expense Forecasting",
+
+  "dataset": {
+    "type": "Controlled Synthetic Dataset",
+    "durationDays": 90,
+    "totalTransactions": 220,
+    "totalExpenseTransactions": 200,
+    "totalIncomeTransactions": 20,
+    "normalExpenses": 190,
+    "knownAnomalies": 10,
+    "randomSeed": 20260926
+  },
+
+  "groundTruth": {
+    "normalExpenses": 190,
+    "knownAnomalies": 10,
+    "totalEvaluatedExpenses": 200
+  },
+
+  "anomalyDetection": {
+    "zScore": {
+      "TP": 8,
+      "TN": 190,
+      "FP": 0,
+      "FN": 2,
+      "precision": 1,
+      "recall": 0.8,
+      "f1Score": 0.8889,
+      "falsePositiveRate": 0,
+      "accuracy": 0.99
+    },
+
+    "isolationForest": {
+      "TP": 2,
+      "TN": 190,
+      "FP": 0,
+      "FN": 8,
+      "precision": 1,
+      "recall": 0.2,
+      "f1Score": 0.3333,
+      "falsePositiveRate": 0,
+      "accuracy": 0.96
+    },
+
+    "hybrid": {
+      "TP": 2,
+      "TN": 190,
+      "FP": 0,
+      "FN": 8,
+      "precision": 1,
+      "recall": 0.2,
+      "f1Score": 0.3333,
+      "falsePositiveRate": 0,
+      "accuracy": 0.96
+    }
+  },
+
+  "thresholdSensitivity": [
+    {
+      "threshold": 0.5,
+      "TP": 10,
+      "TN": 176,
+      "FP": 14,
+      "FN": 0,
+      "precision": 0.4167,
+      "recall": 1,
+      "f1Score": 0.5882,
+      "falsePositiveRate": 0.0737
+    },
+    {
+      "threshold": 0.55,
+      "TP": 9,
+      "TN": 184,
+      "FP": 6,
+      "FN": 1,
+      "precision": 0.6,
+      "recall": 0.9,
+      "f1Score": 0.72,
+      "falsePositiveRate": 0.0316
+    },
+    {
+      "threshold": 0.6,
+      "TP": 6,
+      "TN": 188,
+      "FP": 2,
+      "FN": 4,
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1Score": 0.6667,
+      "falsePositiveRate": 0.0105
+    },
+    {
+      "threshold": 0.65,
+      "TP": 2,
+      "TN": 190,
+      "FP": 0,
+      "FN": 8,
+      "precision": 1,
+      "recall": 0.2,
+      "f1Score": 0.3333,
+      "falsePositiveRate": 0
+    },
+    {
+      "threshold": 0.7,
+      "TP": 1,
+      "TN": 190,
+      "FP": 0,
+      "FN": 9,
+      "precision": 1,
+      "recall": 0.1,
+      "f1Score": 0.1818,
+      "falsePositiveRate": 0
+    },
+    {
+      "threshold": 0.75,
+      "TP": 0,
+      "TN": 190,
+      "FP": 0,
+      "FN": 10,
+      "precision": 0,
+      "recall": 0,
+      "f1Score": 0,
+      "falsePositiveRate": 0
+    },
+    {
+      "threshold": 0.8,
+      "TP": 0,
+      "TN": 190,
+      "FP": 0,
+      "FN": 10,
+      "precision": 0,
+      "recall": 0,
+      "f1Score": 0,
+      "falsePositiveRate": 0
+    }
+  ],
+
+  "forecasting": {
+    "rawForecast": {
+      "model": "Linear Trend Regression",
+      "MAE": 4249.63,
+      "RMSE": 5886.92,
+      "modelParameters": {
+        "slope": 19.178889,
+        "intercept": 2812.980994
+      }
+    },
+
+    "anomalyAwareForecast": {
+      "model": "Anomaly-Aware Linear Trend Regression",
+      "MAE": 3769.59,
+      "RMSE": 6141.93,
+      "modelParameters": {
+        "slope": 15.087675,
+        "intercept": 1636.321034
+      }
+    },
+
+    "improvement": {
+      "MAEImprovementPercentage": 11.3,
+      "RMSEImprovementPercentage": -4.33
+    }
+  },
+
+  "experimentSetup": {
+    "name": "ExpenseMind Expense Forecasting Experiment",
+    "version": "1.0",
+    "dataset": "ExpenseMind Research Dataset",
+    "totalExpenseTransactions": 200,
+    "observationDays": 89,
+    "trainDays": 71,
+    "testDays": 18,
+    "trainTestSplit": "80% chronological training / 20% chronological testing",
+    "testDataUsedForTraining": false
+  },
+
+  "anomalyProcessing": {
+    "method": "Hybrid Z-Score + Isolation Forest",
+    "zScoreThreshold": 2.5,
+    "isolationForestThreshold": 0.55,
+    "trainingAnomaliesRemoved": 6,
+    "trainingMean": 1647.3,
+    "trainingStandardDeviation": 3186.26,
+    "testAnomaliesObserved": 3,
+    "testAnomaliesUsedForTraining": false
+  },
+
+  "graphs": {
+  "anomalyModelComparison": "Figure_1_Anomaly_Detection_F1_Comparison.png",
+  "thresholdSensitivity": "Figure_2_Threshold_Sensitivity.png",
+  "forecastMAEComparison": "Figure_3_Forecasting_MAE_Comparison.png",
+  "forecastRMSEComparison": "Figure_4_Forecasting_RMSE_Comparison.png"
+},
+
+"researchTables": {
+  "status": "LOCKED",
+  "files": [
+    "TABLE_II_Anomaly_Performance.csv",
+    "TABLE_III_Threshold_Sensitivity.csv",
+    "TABLE_IV_Forecasting_Performance.csv",
+    "TABLE_V_Forecasting_Improvement.csv",
+    "RESEARCH_TABLES.md"
+  ]
+}
+,
+  "limitations": [
+    "The research evaluation uses a controlled synthetic dataset rather than a large real-world financial dataset.",
+    "The dataset contains 200 expense transactions and 10 known anomalies, so broader generalization requires validation on larger and real-world datasets.",
+    "Isolation Forest is sensitive to threshold selection and can produce different detection behavior across thresholds.",
+    "The anomaly-aware forecasting approach reduced MAE but increased RMSE, indicating that large prediction errors remain present.",
+    "Further validation using repeated experiments and larger datasets is required before claiming real-world generalization."
+  ],
+
+  "resultsStatus": "LOCKED_FROM_SAVED_RESEARCH_OUTPUTS",
+  "inventedValues": false
+}
+
+"integrity": {
+  "status": "LOCKED",
+  "experimentalValuesModified": false,
+  "datasetModified": false,
+  "thresholdsModified": false,
+  "modelsRerun": false,
+  "metadataUpdated": true
+}

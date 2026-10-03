@@ -1,0 +1,118 @@
+.add-expense-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.add-expense-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .add-expense-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ocr-scanner-widget {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  height: 100%;
+  min-height: 0;      /* critical: lets flex children shrink instead of overflowing */
+  justify-content: space-between;
+  overflow: hidden;    /* safety net so nothing pokes out and triggers scroll */
+}
+
+.ocr-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ocr-header h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ocr-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.ocr-dropzone {
+  border: 2px dashed rgba(139, 92, 246, 0.4);
+  background: rgba(139, 92, 246, 0.04);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 auto;
+  min-height: 0;       /* was implicitly min-height: auto, which was blocking shrink */
+  transition: var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-icon-wrapper {
+  width: 40px;         /* slightly smaller so it fits comfortably */
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+  flex-shrink: 0;      /* icon shouldn't collapse before text does */
+  transition: var(--transition-fast);
+}
+
+.ocr-dropzone:hover {
+  background: rgba(139, 92, 246, 0.12);
+  border-color: var(--accent-purple);
+}
+
+.upload-icon {
+  color: var(--accent-purple);
+  margin-bottom: 0.75rem;
+}
+
+.drop-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.drop-sub {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+.drop-sub-types {
+  display: inline;      /* was inline-block + nowrap — that's what forces horizontal/vertical overflow on narrow columns */
+  white-space: normal;
+}
+
+.ocr-result-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  font-size: 0.85rem;
+  color: #fff;
+}

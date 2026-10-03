@@ -1,0 +1,3 @@
+Metric,Raw Linear Trend,Anomaly-Aware,Improvement Percentage
+MAE,4249.63,3769.59,11.3
+RMSE,5886.92,6141.93,-4.33
