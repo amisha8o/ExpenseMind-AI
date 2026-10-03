@@ -1,4 +1,11 @@
 # ExpenseMind AI
+<img width="1767" height="922" alt="Screenshot 2026-10-03 170223" src="https://github.com/user-attachments/assets/03fefcbc-4f47-401c-929f-8e4ad90bed8d" />
+<img width="1757" height="921" alt="Screenshot 2026-10-03 185300" src="https://github.com/user-attachments/assets/5923d2d3-2ca6-4629-a728-e5ac51d42623" />
+<img width="1907" height="895" alt="Screenshot 2026-10-03 185314" src="https://github.com/user-attachments/assets/db4eadaf-3844-49b9-af0b-ed9da208193e" />
+<img width="1911" height="921" alt="Screenshot 2026-10-03 185326" src="https://github.com/user-attachments/assets/99c8fdd2-475f-4c7b-8e69-81954c318968" />
+<img width="1905" height="922" alt="Screenshot 2026-10-03 185344" src="https://github.com/user-attachments/assets/f196fc3c-a53f-4e74-a0a1-7804e9912137" />
+<img width="1907" height="923" alt="Screenshot 2026-10-03 185356" src="https://github.com/user-attachments/assets/278d0f5d-fde1-4066-ac0c-3fd55232c7e7" />
+
 
 ## AI-Powered Personal Finance & Expense Management System
 
@@ -685,7 +692,7 @@ EMAIL_USER=your_email@example.com
 
 EMAIL_PASSWORD=your_email_app_password
 
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=https://expensemind-ai.vercel.app
 
 Never commit real credentials.
 
@@ -940,8 +947,8 @@ B.Tech Computer Science & Engineering
 Government Mahila Engineering College, Ajmer
 
 Profiles
-# GitHub: https://github.com/amisha8o
-# LinkedIn: https://linkedin.com/in/amisha-kumari-3b80aa2b1/
+ GitHub: https://github.com/amisha8o
+ LinkedIn: https://linkedin.com/in/amisha-kumari-3b80aa2b1/
 # ⭐ Project
 
 ExpenseMind AI — AI-Powered Personal Finance & Expense Management System
