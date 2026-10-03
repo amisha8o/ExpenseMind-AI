@@ -813,5 +813,140 @@ https://expensemind-ai.vercel.app
 https://expensemind-ai.onrender.com
 # Health Check
 https://expensemind-ai.onrender.com/api/health
+# 📁 Research Artifacts
 
- 
+# Research-related files are maintained inside:
+
+server/src/research/
+
+# The research structure includes artifacts for:
+
+Datasets
+Results
+Evaluation
+Anomaly Detection
+Forecasting
+Tables
+Graphs
+Export
+Experiment Scripts
+
+The locked experiment results should be preserved when preparing the research paper.
+
+# 🔭 Future Scope
+
+Possible future improvements include:
+
+Advanced receipt OCR
+Improved financial forecasting models
+Personalized financial planning
+More sophisticated anomaly detection
+Investment portfolio analysis
+Automated recurring transaction detection
+Mobile application
+Multi-currency improvements
+Advanced financial goal recommendations
+Larger real-world research datasets
+Additional machine-learning models
+Long-term user behavior analysis
+# 📚 Research References
+
+Key references used in the research component include:
+
+1.Liu, F. T., Ting, K. M., and Zhou, Z.-H.
+Isolation Forest.
+IEEE International Conference on Data Mining, 2008.
+DOI: 10.1109/ICDM.2008.17
+2. Isolation-Based Anomaly Detection.
+ACM Transactions on Knowledge Discovery from Data, 2012.
+DOI: 10.1145/2133360.2133363
+3. Money Map.
+IEEE ICKECS 2025.
+DOI: 10.1109/ICKECS65700.2025.11035699
+4. Expense Radar.
+IEEE ICCA 2025.
+DOI: 10.1109/ICCA66035.2025.11430733
+5. Smart AI-Based Personal Finance Assistant.
+IJRASET, 2025.
+DOI: 10.22214/ijraset.2025.75019
+# 🎓 Academic / Research Value
+
+# ExpenseMind AI combines:
+
+Full-Stack Development
+        +
+Database Management
+        +
+REST APIs
+        +
+Authentication
+        +
+Data Analytics
+        +
+Artificial Intelligence
+        +
+Machine Learning
+        +
+Anomaly Detection
+        +
+Forecasting
+        +
+Research Evaluation
+
+This makes the project suitable as a major academic project with a research-oriented implementation.
+
+# 📌 Project Highlights
+Full-Stack
+React
++
+Vite
++
+Node.js
++
+Express
++
+MongoDB
+# AI
+Gemini
++
+Financial Intelligence
++
+AI Recommendations
+# Machine Learning
+Statistical Detection
++
+Isolation Forest
++
+Hybrid Evaluation
++
+Forecasting
+# Research
+Controlled Dataset
++
+Reproducible Experiments
++
+Evaluation Metrics
++
+Graphs
++
+Tables
++
+Research Paper
+# 👩‍💻 Author
+Amisha Kumari
+
+B.Tech Computer Science & Engineering
+
+Government Mahila Engineering College, Ajmer
+
+Profiles
+# GitHub: https://github.com/amisha8o
+# LinkedIn: https://linkedin.com/in/amisha-kumari-3b80aa2b1/
+# ⭐ Project
+
+ExpenseMind AI — AI-Powered Personal Finance & Expense Management System
+
+Built with:
+
+React • Vite • Node.js • Express • MongoDB • JWT • Gemini AI • Machine Learning
+
