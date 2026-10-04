@@ -36,7 +36,7 @@
 
 **ExpenseMind AI**
 
-https://expensemind-ai.vercel.app
+https://expense-mind-ai-beta.vercel.app/
 
 > If your final Vercel deployment URL is different, replace the URL above with the actual production URL.
 
