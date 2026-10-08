@@ -200,7 +200,8 @@ export default function App() {
           />
         );
 
-      case 'goals':
+<<<<<<< HEAD
+            case 'goals':
         return <Goals />;
 
       case 'reports':

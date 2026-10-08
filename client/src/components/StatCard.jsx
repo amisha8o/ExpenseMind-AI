@@ -24,7 +24,7 @@ export default function StatCard({ title, value, change, isPositive, icon: Icon,
 
       <div className="stat-card-content">
         <span className="stat-title">{title}</span>
-        <h3 className="stat-value">{value}</h3>
+         <h3 className="stat-value">{value}</h3>
       </div>
     </div>
   );
