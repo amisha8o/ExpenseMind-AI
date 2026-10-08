@@ -6,6 +6,7 @@
 <img width="1905" height="922" alt="Screenshot 2026-10-03 185344" src="https://github.com/user-attachments/assets/f196fc3c-a53f-4e74-a0a1-7804e9912137" />
 <img width="1907" height="923" alt="Screenshot 2026-10-03 185356" src="https://github.com/user-attachments/assets/278d0f5d-fde1-4066-ac0c-3fd55232c7e7" />
 
+# 💰 ExpenseMind AI
 
 ## AI-Powered Personal Finance & Expense Management System
 
@@ -17,253 +18,280 @@
 
 <p align="center">
 
-![React](https://img.shields.io/badge/Frontend-React%2019-61DAFB?logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Build-Vite-646CFF?logo=vite&logoColor=white)
-![Node](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/API-Express.js-000000?logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb&logoColor=white)
-![JWT](https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white)
-![Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=google&logoColor=white)
-![License](https://img.shields.io/badge/Project-Academic%20%2F%20Research-blue)
+![React](https://img.shields.io/badge/Frontend-React%2019-61DAFB?logo=react\&logoColor=white)
+![Vite](https://img.shields.io/badge/Build-Vite-646CFF?logo=vite\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-339933?logo=node.js\&logoColor=white)
+![Express.js](https://img.shields.io/badge/API-Express.js-000000?logo=express\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?logo=mongodb\&logoColor=white)
+![JWT](https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens\&logoColor=white)
+![Gemini](https://img.shields.io/badge/AI-Gemini-4285F4?logo=google\&logoColor=white)
+![Project](https://img.shields.io/badge/Type-Academic%20%2F%20Research-blue)
 
 </p>
 
 ---
 
-## 🌐 Live Application
+## 🌐 Live Demo
 
-### Frontend
+### 🚀 Frontend
 
-**ExpenseMind AI**
+**ExpenseMind AI — Live Application**
 
-https://expense-mind-ai-beta.vercel.app/
+**https://expense-mind-ai-beta.vercel.app/**
 
-> If your final Vercel deployment URL is different, replace the URL above with the actual production URL.
+> The frontend is deployed on Vercel and connected to the production backend API.
 
-### Backend API
+### ⚙️ Backend API
 
 **ExpenseMind AI API**
 
-https://expensemind-ai.onrender.com
+**https://expensemind-ai.onrender.com**
 
-### Backend Health Check
+### ❤️ Backend Health Check
 
-https://expensemind-ai.onrender.com/api/health
+**https://expensemind-ai.onrender.com/api/health**
 
-Expected response:
+Current production health endpoint:
 
+```json
 {
   "success": true,
   "status": "Healthy"
 }
+```
 
+---
 
-### 🚀 Overview
+# 📌 Overview
 
-ExpenseMind AI is an AI-powered personal finance management system developed using the MERN ecosystem.
+ExpenseMind AI is an **AI-powered personal finance management system** developed using the MERN ecosystem.
 
-The platform combines traditional financial tracking with analytics, machine learning, anomaly detection, forecasting, financial health assessment, budget intelligence, financial goal tracking, and AI-generated recommendations.
+The platform combines conventional financial management with:
 
-## The system is designed around a simple workflow:
+* Financial analytics
+* Budget intelligence
+* Financial goal tracking
+* Financial health assessment
+* Statistical anomaly detection
+* Isolation Forest
+* Hybrid anomaly detection
+* Expense forecasting
+* Anomaly-aware forecasting
+* Gemini-powered financial insights
+* AI recommendations
+* Reports and data export
 
-User
-  ↓
-Authentication
-  ↓
-Financial Data
-  ↓
-MongoDB
-  ↓
-Backend Analytics
-  ↓
-AI / ML Intelligence
-  ↓
-Dashboard & Insights
-  ↓
-Recommendations
+Instead of simply storing financial transactions, ExpenseMind AI transforms transaction data into **meaningful financial insights and actionable recommendations**.
 
-Instead of only storing financial transactions, ExpenseMind AI attempts to transform transaction data into actionable financial insights.
+---
 
 # 🎯 Problem Statement
 
 Managing personal finances manually can make it difficult to:
 
-Track spending consistently
-Identify unusual transactions
-Understand spending categories
-Monitor budgets
-Track financial goals
-Forecast upcoming expenses
-Understand overall financial health
-Convert transaction history into useful insights
+* Track spending consistently
+* Understand spending categories
+* Monitor budgets
+* Track financial goals
+* Identify unusual transactions
+* Forecast upcoming expenses
+* Evaluate financial health
+* Convert transaction history into useful insights
 
-ExpenseMind AI addresses these challenges by integrating financial management with analytics and AI/ML-based analysis.
+ExpenseMind AI addresses these challenges by integrating **financial management, analytics, artificial intelligence, and machine learning** into a single platform.
+
+---
 
 # 🎯 Objectives
 
 The major objectives of ExpenseMind AI are:
 
-Build a centralized personal finance management platform.
-Provide secure user authentication.
-Manage income, expenses, and transactions.
-Provide category-wise and time-based analytics.
-Track budgets and budget utilization.
-Track financial goals and contributions.
-Calculate a financial health score.
-Detect unusual financial transactions.
-Forecast future expenses.
-Generate AI-powered financial recommendations.
-Provide reports and export functionality.
-Evaluate anomaly detection and forecasting approaches through reproducible research experiments.
+1. Build a centralized personal finance management platform.
+2. Provide secure user authentication.
+3. Manage income, expenses, and transactions.
+4. Provide category-wise and time-based analytics.
+5. Track budgets and budget utilization.
+6. Track financial goals and contributions.
+7. Calculate a financial health score.
+8. Detect unusual financial transactions.
+9. Forecast future expenses.
+10. Generate AI-powered financial recommendations.
+11. Provide reports and export functionality.
+12. Evaluate anomaly detection and forecasting approaches through reproducible research experiments.
+
+---
 
 # ✨ Key Features
-🔐 Authentication
-User registration
-User login
-JWT-based authentication
-Protected API routes
-Password reset workflow
-Secure password hashing
-User profile management
-# 💰 Income Management
+
+## 🔐 Authentication
+
+* User registration
+* User login
+* JWT-based authentication
+* Protected API routes
+* Password reset workflow
+* Secure password hashing
+* User profile management
+
+---
+
+## 💰 Income Management
 
 Users can record income transactions such as:
 
-Salary
-Freelance income
-Investments
-Other income sources
+* Salary
+* Freelance income
+* Investments
+* Other income sources
 
 Income data contributes to:
 
-Total income
-Net balance
-Savings calculations
-Financial health analysis
-Cash-flow analytics
-# 💸 Expense Management
+* Total income
+* Net balance
+* Savings calculations
+* Financial health analysis
+* Cash-flow analytics
 
-Users can create and manage expenses with information such as:
+---
 
-Expense title
-Amount
-Category
-Date
-Description
+## 💸 Expense Management
 
-Supported categories include examples such as:
+Users can create and manage expenses with:
 
-Food & Dining
-Entertainment
-Transport
-Health & Wellness
-Shopping
-Bills & Utilities
-Subscriptions
-Other
+* Expense title
+* Amount
+* Category
+* Date
+* Description
+
+Example categories include:
+
+* Food & Dining
+* Entertainment
+* Transport
+* Health & Wellness
+* Shopping
+* Bills & Utilities
+* Subscriptions
+* Other
+
+---
+
 # 📊 Financial Dashboard
 
-The dashboard provides a centralized view of the user's financial activity.
+The dashboard provides a centralized view of financial activity.
 
-Dashboard includes:
-Total income
-Total expenses
-Net cash savings
-Savings rate
-Financial health score
-Spending breakdown
-Category analytics
-Recent transactions
-AI recommendations
-Anomaly detection summary
-Income vs expense analytics
+### Dashboard includes:
 
-The dashboard is designed to convert raw transactions into an understandable financial overview.
+* Total income
+* Total expenses
+* Net savings
+* Savings rate
+* Financial health score
+* Spending breakdown
+* Category analytics
+* Recent transactions
+* AI recommendations
+* Anomaly detection summary
+* Income vs. expense analytics
 
-# 📈 Analytics
+The dashboard converts raw financial data into an understandable financial overview.
 
-ExpenseMind AI provides financial analytics across different dimensions.
+---
 
-Spending Analytics
+# 📈 Financial Analytics
+
+ExpenseMind AI provides analytics across multiple dimensions.
+
+### Spending Analytics
 
 Users can analyze:
 
-Category-wise expenses
-Total spending
-Transaction counts
-Income vs expense
-Cash flow
-Monthly trends
-Weekly trends
-# Example analytical flow
+* Category-wise expenses
+* Total spending
+* Transaction counts
+* Income vs. expenses
+* Cash flow
+* Monthly trends
+* Weekly trends
+
+### Analytical Workflow
+
+```text
 Transactions
+     ↓
+Data Processing
      ↓
 Category Aggregation
      ↓
 Financial Metrics
      ↓
-Charts / Visualizations
+Charts & Visualizations
      ↓
-User Insights
+Financial Insights
+```
+
+---
+
 # 🎯 Budget Management
 
 The budget module allows users to create category-based spending limits.
 
-The system can track:
-
+```text
 Budget Limit
-      ↓
+     ↓
 Actual Spending
-      ↓
-Utilization
-      ↓
+     ↓
+Budget Utilization
+     ↓
 Budget Status
-      ↓
+     ↓
 Budget Intelligence
+```
 
-Budget intelligence can help identify areas where spending may require attention.
+The system helps users understand budget utilization and identify areas where spending may require attention.
+
+---
 
 # 🏆 Financial Goals
 
-Users can create financial goals and track progress.
+Users can create financial goals and track their progress.
 
-Example:
+### Example
 
-Goal:
-Laptop Fund
+**Goal:** Laptop Fund
 
-Target:
-₹20,000
+**Target:** ₹20,000
 
-Current Contribution:
-₹500
+**Current Contribution:** ₹500
 
-Progress:
-2.5%
+**Progress:** 2.5%
 
-Goal functionality includes:
+### Goal functionality
 
-Goal creation
-Target amount
-Current progress
-Contributions
-Withdrawals
-Goal status
-Deadline tracking
-Progress visualization
+* Goal creation
+* Target amount
+* Current progress
+* Contributions
+* Withdrawals
+* Goal status
+* Deadline tracking
+* Progress visualization
+
+---
+
 # ❤️ Financial Health Score
 
-ExpenseMind AI calculates a financial health score using financial indicators such as:
+ExpenseMind AI calculates a financial health score using indicators such as:
 
-Savings health
-Budget management
-Goal progress
-Financial stability
+* Savings health
+* Budget management
+* Goal progress
+* Financial stability
 
-The dashboard presents the score along with supporting indicators.
+### Financial Health Model
 
-# Example:
-
+```text
 Financial Health
        ↓
 Savings Health
@@ -273,35 +301,48 @@ Budget Management
 Goal Progress
        ↓
 Financial Stability
-# 🤖 AI and Machine Learning
+```
+
+---
+
+# 🤖 AI & Machine Learning
 
 ExpenseMind AI integrates AI/ML functionality at multiple levels.
 
-1. Anomaly Detection
+## 1. Anomaly Detection
 
 The system analyzes expense transactions to identify unusual spending behavior.
 
 The research implementation evaluates:
 
-Statistical anomaly detection
-Isolation Forest
-Hybrid anomaly detection
+* Statistical anomaly detection
+* Z-score-based detection
+* Isolation Forest
+* Hybrid anomaly detection
 
-2. Statistical Anomaly Detection
+---
 
-Statistical analysis uses transaction-level characteristics to identify observations that significantly deviate from normal spending patterns.
+## 2. Statistical Anomaly Detection
 
-One of the evaluated approaches uses Z-score based detection.
+Statistical analysis identifies observations that significantly deviate from normal spending patterns.
 
-3. Isolation Forest
+A Z-score-based approach is evaluated as one of the statistical baselines.
 
-Isolation Forest is used as a machine-learning-based anomaly detection method.
+---
 
-The idea is to identify observations that can be isolated relatively easily from the rest of the data.
+## 3. Isolation Forest
 
-4. Hybrid Anomaly Detection
+Isolation Forest is evaluated as a machine-learning-based anomaly detection method.
 
-The research pipeline also evaluates a hybrid approach combining statistical and machine-learning-based anomaly signals.
+The approach identifies observations that can be isolated relatively easily from the rest of the transaction population.
+
+---
+
+## 4. Hybrid Anomaly Detection
+
+The research pipeline evaluates a hybrid approach combining statistical and machine-learning-based anomaly signals.
+
+---
 
 # 🔮 Expense Forecasting
 
@@ -309,66 +350,78 @@ ExpenseMind AI includes expense forecasting functionality.
 
 The research pipeline evaluates:
 
-Baseline Forecasting
+### Baseline Forecasting
 
-A linear forecasting approach is evaluated as a baseline.
+A linear forecasting approach is used as a baseline.
 
-Anomaly-Aware Forecasting
+### Anomaly-Aware Forecasting
 
-An anomaly-aware approach evaluates forecasting after accounting for unusual transactions.
+Anomaly-aware forecasting evaluates prediction performance after accounting for unusual transactions.
 
-The research compares the forecasting error using:
+The research evaluates forecasting error using:
 
-MAE
-RMSE
-# 🧠 Gemini AI
+* MAE
+* RMSE
+
+---
+
+# 🧠 Gemini AI Integration
 
 ExpenseMind AI integrates Google's Gemini API for AI-powered financial analysis.
 
-The AI layer is intended to support:
+The AI layer supports functionality such as:
 
-Financial insights
-Personalized recommendations
-Spending analysis
-Budget-related suggestions
-Financial explanations
+* Financial insights
+* Personalized recommendations
+* Spending analysis
+* Budget suggestions
+* Financial explanations
 
-The Gemini API key is stored through environment variables and is never intended to be committed to the repository.
+The Gemini API key is managed through environment variables and is **not committed to the repository**.
+
+---
 
 # 💡 AI Recommendation Engine
 
-The recommendation layer uses financial information to provide contextual suggestions.
+The recommendation layer uses financial information to generate contextual suggestions.
 
-Potential recommendation inputs include:
+Potential inputs include:
 
-Spending behavior
-Budget utilization
-Financial health
-Savings
-Goals
-Transaction patterns
+* Spending behavior
+* Budget utilization
+* Financial health
+* Savings
+* Financial goals
+* Transaction patterns
 
 The objective is to provide recommendations based on the user's actual financial data rather than static demo information.
 
+---
+
 # 📱 Application Modules
 
-The application includes the following major modules:
+The application includes:
 
-Home
-Dashboard
-Transactions
-Budgets & Goals
-Analytics
-Reports
-AI Insights
-AI Log
-Expense Management
-Profile
-Settings
+* Home
+* Dashboard
+* Transactions
+* Budgets
+* Goals
+* Analytics
+* Reports
+* AI Insights
+* AI Log
+* Expense Management
+* Profile
+* Settings
 
-# 🏗 System Architecture
+---
+
+# 🏗️ System Architecture
+
+```text
                          ┌─────────────────────┐
-                         │       User          │
+                         │        User         │
                          └──────────┬──────────┘
                                     │
                                     ▼
@@ -376,60 +429,78 @@ Settings
                          │ React + Vite Client │
                          └──────────┬──────────┘
                                     │
-                              REST API
+                               REST API
                                     │
                                     ▼
                          ┌─────────────────────┐
                          │ Express.js Server   │
                          └──────────┬──────────┘
                                     │
-             ┌──────────────────────┼──────────────────────┐
-             │                      │                      │
-             ▼                      ▼                      ▼
-      Authentication          Finance APIs          AI / ML Services
-             │                      │                      │
-             │                      │              ┌───────┴────────┐
-             │                      │              │                │
-             ▼                      ▼              ▼                ▼
-          JWT Auth              MongoDB       Anomaly          Forecasting
-                              / Mongoose      Detection
+              ┌─────────────────────┼─────────────────────┐
+              │                     │                     │
+              ▼                     ▼                     ▼
+       Authentication         Finance APIs         AI / ML Services
+              │                     │                     │
+              ▼                     ▼              ┌──────┴───────┐
+          JWT Auth               MongoDB           │              │
+                                / Mongoose          ▼              ▼
+                                               Anomaly        Forecasting
+                                               Detection
                                                   │
                                                   ▼
                                            Financial Intelligence
                                                   │
                                                   ▼
                                            AI Recommendations
-# 🛠 Technology Stack
-Frontend
-React 19
-Vite
-JavaScript
-JSX
-Lucide React
-Responsive UI
-# Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT
-Express Validator
-Helmet
-CORS
-Morgan
-Nodemailer
-# AI
-Google Gemini API
-# Machine Learning / Research
-Isolation Forest
-Statistical anomaly detection
-Hybrid anomaly evaluation
-Forecasting
-MAE
-RMSE
-Reproducible research pipeline
+```
+
+---
+
+# 🛠️ Technology Stack
+
+## Frontend
+
+* React 19
+* Vite
+* JavaScript
+* JSX
+* Lucide React
+* Responsive UI
+
+## Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* JWT
+* Express Validator
+* Helmet
+* CORS
+* Morgan
+* Nodemailer
+* bcrypt
+
+## Artificial Intelligence
+
+* Google Gemini API
+
+## Machine Learning & Research
+
+* Statistical anomaly detection
+* Z-score analysis
+* Isolation Forest
+* Hybrid anomaly detection
+* Expense forecasting
+* MAE
+* RMSE
+* Reproducible research pipeline
+
+---
 
 # 📂 Project Structure
+
+```text
 ExpenseMind-AI/
 │
 ├── client/
@@ -457,36 +528,45 @@ ExpenseMind-AI/
 ├── README.md
 │
 └── .gitignore
+```
 
-# 🔐 Authentication and Security
+---
+
+# 🔐 Authentication & Security
 
 Security measures implemented in the backend include:
 
-JWT authentication
-Password hashing with bcrypt
-Protected routes
-Input validation
-Helmet security middleware
-CORS configuration
-Environment-based secrets
-Error handling middleware
-Authentication middleware
+* JWT authentication
+* Password hashing with bcrypt
+* Protected routes
+* Input validation
+* Helmet security middleware
+* CORS configuration
+* Environment-based secrets
+* Error-handling middleware
+* Authentication middleware
 
 Sensitive credentials are not stored in the repository.
 
-# The following files must remain local:
+### Local environment files
 
+```text
 .env
+```
 
-# Only example configuration files are committed:
+Only example configuration files are committed:
 
+```text
 .env.example
+```
+
+---
+
 # 🔬 Research Component
 
-A dedicated research pipeline is included with the project.
+ExpenseMind AI includes a dedicated research pipeline for evaluating anomaly detection and expense forecasting methods.
 
-# The research component evaluates:
-
+```text
 Anomaly Detection
         +
 Threshold Sensitivity
@@ -496,162 +576,215 @@ Expense Forecasting
 Error Evaluation
         ↓
 Research Results
+```
 
-The research artifacts include:
+### Research artifacts include:
 
-Datasets
-Experiment scripts
-Anomaly detection services
-Forecasting services
-Evaluation scripts
-CSV result tables
-JSON result files
-Research graphs
-Final evaluation outputs
+* Controlled datasets
+* Experiment scripts
+* Anomaly detection services
+* Forecasting services
+* Evaluation scripts
+* CSV result tables
+* JSON result files
+* Research graphs
+* Final evaluation outputs
+
+---
+
 # 🧪 Research Dataset
 
 The locked research experiment uses:
 
-Parameter	Value
-Total transactions	220
-Duration	90 days
-Expenses	200
-Income records	20
-Normal transactions	190
-Anomalies	10
-Seed	20260926
+| Parameter           |    Value |
+| ------------------- | -------: |
+| Total transactions  |      220 |
+| Duration            |  90 days |
+| Expenses            |      200 |
+| Income records      |       20 |
+| Normal transactions |      190 |
+| Anomalies           |       10 |
+| Seed                | 20260926 |
 
-The research dataset is controlled and reproducible.
+The dataset is controlled and reproducible for research evaluation.
+
+---
 
 # 📊 Experimental Results
 
-The following results are the locked results used for the research work.
+## Anomaly Detection
 
-Anomaly Detection
-Method	F1 Score
-Z-Score	0.8889
-Isolation Forest	0.3333
-Hybrid	0.3333
-# Threshold Evaluation
+| Method           | F1 Score |
+| ---------------- | -------: |
+| Z-Score          |   0.8889 |
+| Isolation Forest |   0.3333 |
+| Hybrid           |   0.3333 |
 
-At the evaluated threshold of 0.55:
+## Threshold Evaluation
 
-Metric	Result
-F1 Score	0.7200
+Evaluated threshold: **0.55**
+
+| Metric   | Result |
+| -------- | -----: |
+| F1 Score | 0.7200 |
+
+---
+
 # 📉 Forecasting Evaluation
-Baseline vs Anomaly-Aware Forecasting
-Forecasting Approach	MAE
-Linear Baseline	₹4,249.63
-Anomaly-Aware	₹3,769.59
-# MAE Improvement
-MAE Reduction = 11.30%
 
-# The anomaly-aware approach reduced MAE from:
+## Baseline vs. Anomaly-Aware Forecasting
 
-₹4,249.63
+| Forecasting Approach |       MAE |
+| -------------------- | --------: |
+| Linear Baseline      | ₹4,249.63 |
+| Anomaly-Aware        | ₹3,769.59 |
 
-# to:
+### MAE Improvement
 
-₹3,769.59
-# RMSE
+**11.30% reduction in MAE**
 
-The evaluated anomaly-aware forecasting configuration showed:
+The anomaly-aware approach reduced MAE from:
 
-RMSE Change = +4.33%
+**₹4,249.63 → ₹3,769.59**
 
-Therefore, the research results should be interpreted using both MAE and RMSE rather than relying on a single metric.
+### RMSE
 
-# 📊 Research Visualization Categories
+The evaluated anomaly-aware configuration showed:
 
-The research artifacts include visual analysis for areas such as:
+**RMSE Change = +4.33%**
 
-Anomaly detection comparison
-Threshold sensitivity
-Forecasting performance
-MAE comparison
-RMSE comparison
-Transaction distributions
-Research evaluation tables
+Therefore, the research evaluation considers both **MAE and RMSE** rather than relying on a single metric.
 
-These visualizations support the quantitative evaluation presented in the research component.
+---
+
+# 📊 Research Visualizations
+
+Research artifacts include visual analysis for:
+
+* Anomaly detection comparison
+* Threshold sensitivity
+* Forecasting performance
+* MAE comparison
+* RMSE comparison
+* Transaction distributions
+* Research evaluation tables
+
+---
 
 # 📑 Reports
 
-The application provides report functionality for financial data.
+The application provides reporting functionality for financial data.
 
-Report functionality includes:
+### Report functionality
 
-Financial summaries
-Income information
-Expense information
-Category information
-Analytical information
-CSV export
-Print / PDF workflow
+* Financial summaries
+* Income information
+* Expense information
+* Category information
+* Analytical information
+* CSV export
+* Print workflow
+* PDF workflow
+
+---
+
 # 🔌 API Overview
 
 The backend exposes REST APIs for major application modules.
 
-# Authentication
+### Authentication
+
+```text
 /api/auth
-
-Supports authentication workflows such as:
-
-Registration
-Login
-Password reset
-# Users
-/api/users
-
-Supports user profile-related operations.
-
-# Expenses
-/api/expenses
-
-Supports expense management.
-
-# Income
-/api/income
-
-Supports income management.
-
-# Transactions
-/api/transactions
-
-Supports transaction retrieval and management.
-
-# Budgets
-/api/budgets
-
-Supports budget management and intelligence.
-
-# Goals
-/api/goals
+```
 
 Supports:
 
-Goal creation
-Goal updates
-Goal deletion
-Contributions
-Progress tracking
-# Analytics
+* Registration
+* Login
+* Password reset
+
+### Users
+
+```text
+/api/users
+```
+
+Supports user profile operations.
+
+### Expenses
+
+```text
+/api/expenses
+```
+
+Supports expense management.
+
+### Income
+
+```text
+/api/income
+```
+
+Supports income management.
+
+### Transactions
+
+```text
+/api/transactions
+```
+
+Supports transaction retrieval and management.
+
+### Budgets
+
+```text
+/api/budgets
+```
+
+Supports budget management and intelligence.
+
+### Goals
+
+```text
+/api/goals
+```
+
+Supports:
+
+* Goal creation
+* Goal updates
+* Goal deletion
+* Contributions
+* Progress tracking
+
+### Analytics
+
+```text
 /api/analytics
+```
 
 Provides financial analytics.
 
-# Reports
+### Reports
+
+```text
 /api/reports
+```
 
 Provides report-related functionality.
 
-# Anomaly Detection
+### Anomaly Detection
+
+```text
 /api/anomalies
+```
 
 Provides anomaly detection functionality.
 
-Example health/anomaly workflow:
+### Example anomaly workflow
 
+```text
 Transaction Data
        ↓
 Feature Processing
@@ -663,19 +796,29 @@ Isolation Forest
 Anomaly Score
        ↓
 Financial Insight
+```
+
+---
+
 # ⚙️ Environment Variables
-# Backend
+
+## Backend
 
 Create:
 
+```text
 server/.env
+```
 
 using:
 
+```text
 server/.env.example
+```
 
-# Example:
+Example configuration:
 
+```env
 PORT=5000
 
 MONGO_URI=mongodb://127.0.0.1:27017/finance_ai
@@ -692,194 +835,246 @@ EMAIL_USER=your_email@example.com
 
 EMAIL_PASSWORD=your_email_app_password
 
-CLIENT_URL=https://expensemind-ai.vercel.app
+CLIENT_URL=https://expense-mind-ai-beta.vercel.app
+```
 
-Never commit real credentials.
+**Never commit real credentials.**
+
+---
 
 # 💻 Local Installation
-Prerequisites
+
+## Prerequisites
 
 Install:
 
-Node.js
-npm
-MongoDB or MongoDB Atlas
-Git
-# 1. Clone Repository
+* Node.js
+* npm
+* MongoDB or MongoDB Atlas
+* Git
+
+---
+
+## 1. Clone Repository
+
+```bash
 git clone https://github.com/amisha8o/ExpenseMind-AI.git
 cd ExpenseMind-AI
-# 2. Backend Setup
+```
+
+---
+
+## 2. Backend Setup
+
+```bash
 cd server
-
-Install dependencies:
-
 npm install
+```
 
-Create environment file:
+Create the environment file:
 
-Windows
+### Windows
+
+```powershell
 copy .env.example .env
+```
 
-Configure .env.
+Configure the required environment variables.
 
-Start backend:
+Start the development server:
 
+```bash
 npm run dev
+```
 
 Production-style start:
 
+```bash
 npm start
+```
 
-Backend will normally run on:
+Backend normally runs on:
 
+```text
 http://localhost:5000
-# 3. Frontend Setup
+```
 
-Open a new terminal.
+---
 
+## 3. Frontend Setup
+
+Open a new terminal:
+
+```bash
 cd client
-
-Install dependencies:
-
 npm install
+```
 
-Create environment file:
+Create the environment file:
 
-Windows
+### Windows
+
+```powershell
 copy .env.example .env
+```
 
 Configure:
 
+```env
 VITE_API_URL=http://localhost:5000/api
+```
 
-Start frontend:
+Start the frontend:
 
+```bash
 npm run dev
+```
 
-Vite will provide the local frontend URL in the terminal.
+---
 
-# 🧪 Frontend Build
+# 🧪 Production Build
 
-For a production build:
+From the `client` directory:
 
-cd client
+```bash
 npm run build
+```
 
 Preview the production build:
 
+```bash
 npm run preview
+```
+
+---
+
 # 🚀 Production Deployment
 
-ExpenseMind AI is structured as a separate frontend and backend deployment.
+ExpenseMind AI uses separate frontend and backend deployments.
 
-Frontend
+## Frontend — Vercel
 
-Recommended deployment:
+**Production Frontend:**
 
-Vercel
+https://expense-mind-ai-beta.vercel.app/
 
-Frontend root directory:
+Configuration:
 
-client
-
-Build command:
-
-npm run build
-
-Output directory:
-
-dist
+```text
+Root Directory: client
+Build Command: npm run build
+Output Directory: dist
+```
 
 Frontend environment variable:
 
+```env
 VITE_API_URL=https://expensemind-ai.onrender.com/api
-# Backend
+```
 
-Recommended deployment:
+---
 
-Render
+## Backend — Render
 
-Backend root directory:
+**Production Backend:**
 
-server
+https://expensemind-ai.onrender.com
 
-Build command:
+Configuration:
 
-npm install
+```text
+Root Directory: server
+Build Command: npm install
+Start Command: npm start
+```
 
-Start command:
+Production environment variables should be configured through Render.
 
-npm start
-
-Production environment variables should be configured through the hosting provider.
+---
 
 # 🌍 Production URLs
-# Frontend
-https://expensemind-ai.vercel.app
-# Backend
+
+### Frontend
+
+https://expense-mind-ai-beta.vercel.app/
+
+### Backend
+
 https://expensemind-ai.onrender.com
-# Health Check
+
+### Backend Health Check
+
 https://expensemind-ai.onrender.com/api/health
+
+---
+
 # 📁 Research Artifacts
 
-# Research-related files are maintained inside:
+Research-related implementation files are maintained inside:
 
+```text
 server/src/research/
+```
 
-# The research structure includes artifacts for:
+The research structure contains artifacts for:
 
-Datasets
-Results
-Evaluation
-Anomaly Detection
-Forecasting
-Tables
-Graphs
-Export
-Experiment Scripts
+* Datasets
+* Results
+* Evaluation
+* Anomaly Detection
+* Forecasting
+* Tables
+* Graphs
+* Export
+* Experiment Scripts
 
 The locked experiment results should be preserved when preparing the research paper.
+
+---
 
 # 🔭 Future Scope
 
 Possible future improvements include:
 
-Advanced receipt OCR
-Improved financial forecasting models
-Personalized financial planning
-More sophisticated anomaly detection
-Investment portfolio analysis
-Automated recurring transaction detection
-Mobile application
-Multi-currency improvements
-Advanced financial goal recommendations
-Larger real-world research datasets
-Additional machine-learning models
-Long-term user behavior analysis
+* Advanced receipt OCR
+* Improved financial forecasting models
+* Personalized financial planning
+* More sophisticated anomaly detection
+* Investment portfolio analysis
+* Automated recurring transaction detection
+* Mobile application
+* Multi-currency improvements
+* Advanced financial goal recommendations
+* Larger real-world research datasets
+* Additional machine-learning models
+* Long-term user behavior analysis
+
+---
+
 # 📚 Research References
 
-Key references used in the research component include:
+1. Liu, F. T., Ting, K. M., and Zhou, Z.-H. **Isolation Forest.** IEEE International Conference on Data Mining, 2008.
+   DOI: 10.1109/ICDM.2008.17
 
-1.Liu, F. T., Ting, K. M., and Zhou, Z.-H.
-Isolation Forest.
-IEEE International Conference on Data Mining, 2008.
-DOI: 10.1109/ICDM.2008.17
-2. Isolation-Based Anomaly Detection.
-ACM Transactions on Knowledge Discovery from Data, 2012.
-DOI: 10.1145/2133360.2133363
-3. Money Map.
-IEEE ICKECS 2025.
-DOI: 10.1109/ICKECS65700.2025.11035699
-4. Expense Radar.
-IEEE ICCA 2025.
-DOI: 10.1109/ICCA66035.2025.11430733
-5. Smart AI-Based Personal Finance Assistant.
-IJRASET, 2025.
-DOI: 10.22214/ijraset.2025.75019
-# 🎓 Academic / Research Value
+2. **Isolation-Based Anomaly Detection.** ACM Transactions on Knowledge Discovery from Data, 2012.
+   DOI: 10.1145/2133360.2133363
 
-# ExpenseMind AI combines:
+3. **Money Map.** IEEE ICKECS 2025.
+   DOI: 10.1109/ICKECS65700.2025.11035699
 
+4. **Expense Radar.** IEEE ICCA 2025.
+   DOI: 10.1109/ICCA66035.2025.11430733
+
+5. **Smart AI-Based Personal Finance Assistant.** IJRASET, 2025.
+   DOI: 10.22214/ijraset.2025.75019
+
+---
+
+# 🎓 Academic & Research Value
+
+ExpenseMind AI combines:
+
+```text
 Full-Stack Development
         +
 Database Management
@@ -899,61 +1094,103 @@ Anomaly Detection
 Forecasting
         +
 Research Evaluation
+```
 
-This makes the project suitable as a major academic project with a research-oriented implementation.
+The project therefore demonstrates both **software engineering capability** and **research-oriented AI/ML implementation**.
+
+---
 
 # 📌 Project Highlights
-Full-Stack
+
+## Full-Stack
+
+```text
 React
-+
+ +
 Vite
-+
+ +
 Node.js
-+
+ +
 Express
-+
+ +
 MongoDB
-# AI
+```
+
+## AI
+
+```text
 Gemini
-+
+ +
 Financial Intelligence
-+
+ +
 AI Recommendations
-# Machine Learning
+```
+
+## Machine Learning
+
+```text
 Statistical Detection
-+
+ +
 Isolation Forest
-+
+ +
 Hybrid Evaluation
-+
+ +
 Forecasting
-# Research
+```
+
+## Research
+
+```text
 Controlled Dataset
-+
+ +
 Reproducible Experiments
-+
+ +
 Evaluation Metrics
-+
+ +
 Graphs
-+
+ +
 Tables
-+
+ +
 Research Paper
+```
+
+---
+
 # 👩‍💻 Author
-Amisha Kumari
 
-B.Tech Computer Science & Engineering
+## Amisha Kumari
 
-Government Mahila Engineering College, Ajmer
+**B.Tech Computer Science & Engineering**
 
-Profiles
- GitHub: https://github.com/amisha8o
- LinkedIn: https://linkedin.com/in/amisha-kumari-3b80aa2b1/
+**Government Mahila Engineering College, Ajmer**
+
+### Profiles
+
+* GitHub: https://github.com/amisha8o
+* LinkedIn: https://linkedin.com/in/amisha-kumari-3b80aa2b1/
+
+---
+
 # ⭐ Project
 
-ExpenseMind AI — AI-Powered Personal Finance & Expense Management System
+**ExpenseMind AI — AI-Powered Personal Finance & Expense Management System**
 
 Built with:
 
-React • Vite • Node.js • Express • MongoDB • JWT • Gemini AI • Machine Learning
+**React • Vite • Node.js • Express • MongoDB • JWT • Gemini AI • Machine Learning**
+
+---
+
+## 🌐 Try the Live Application
+
+**ExpenseMind AI**
+
+https://expense-mind-ai-beta.vercel.app/
+
+
+
+
+
+
+
 
